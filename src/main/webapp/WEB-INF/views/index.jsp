@@ -47,7 +47,7 @@
 			</td>
 			<td><%=vo.getName()%></td>
 			<td><%=vo.getRegDate()%></td>
-			<td><a href="/guestbook02/gb?a=delete">Delete</a></td>
+			<td><a href="/guestbook03/deleteform?no=<%=vo.getNo()%>">Delete</a></td>
 		</tr>
 		<tr>
 			<td colspan=4><%=vo.getContents().replace("\n", "<br>")%></td>
